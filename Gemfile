@@ -42,7 +42,7 @@ gem "thruster", require: false
 
 # Дополнительные библиотеки
 gem "carrierwave", "~> 3.0"
-gem "mini_magick", "~> 4.5", ">= 4.5.1"
+gem "mini_magick", "~> 5.2"
 
 gem "will_paginate", "~> 4.0"
 
