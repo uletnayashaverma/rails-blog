@@ -1,0 +1,77 @@
+ru:
+  common:
+    errors: "При заполнении формы возникли ошибки"
+    back: "Назад"
+    create: "Создать"
+    edit: "Изменить"
+  posts:
+    index:
+      title: "Статьи"
+  admin:
+    posts:
+      new:
+        title: "Новая статья"
+      edit:
+        title: "Редактирование статьи"
+      form:
+        submit:
+          "%{action} статью"
+    categories:
+      index:
+        title: "Категории"
+      new:
+        title: "Новая категория"
+      edit:
+        title: "Редактирование категории"
+      form:
+        submit:
+          "%{action} категорию"
+  # devise
+  devise:
+    sessions:
+      new:
+        sign_in: "Авторизация"
+        remember_me: "Запомнить меня"
+        submit: "Войти"
+    registrations:
+      new:
+        sign_up: "Регистрация"
+        minimum_password_length: "минимум %{count} символов"
+        submit: "Зарегистрироваться"
+      edit:
+        title: "Редактировать профиль"
+        email: "Электронная почта"
+        new_password: "Новый пароль"
+        password_hint: "(оставьте пустым, если не хотите менять)"
+        characters_minimum: "минимум %{count} символов"
+        confirm_new_password: "Подтверждение нового пароля"
+        current_password: "Текущий пароль"
+        current_password_hint: "(нужен для подтверждения изменений)"
+        submit: "Обновить"
+        cancel_title: "Удалить аккаунт"
+        cancel_message: "Недовольны?"
+        cancel_button: "Удалить аккаунт"
+        back: "Назад"
+        pending_confirmation: "Ожидается подтверждение для: %{email}"
+    passwords:
+      new:
+        forgot_your_password: "Забыли пароль?"
+        send_me_reset_password_instructions: "Отправить инструкции для сброса пароля"
+      edit:
+        change_your_password: "Изменить ваш пароль"
+        new_password: "Новый пароль"
+        confirm_new_password: "Подтвердите новый пароль"
+        characters_minimum: "минимум %{count} символов"
+        submit: "Изменить пароль"
+    confirmations:
+      new:
+        title: "Отправить повторно инструкции подтверждения"
+        submit: "Отправить"
+    shared:
+      links:
+        sign_in: "Войти"
+        sign_up: "Зарегистрироваться"
+        forgot_your_password: "Забыли пароль?"
+        resend_confirmation: "Не получили письмо с подтверждением?"
+        resend_unlock: "Не получили инструкции по разблокировке?"
+        omniauth: "Войти через %{provider}"

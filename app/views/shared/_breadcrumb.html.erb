@@ -1,0 +1,6 @@
+<% if category.present? && category.parent %>
+	<nav aria-label="breadcrumb"></nav>
+	<ol class="breadcrumb bg-light px-3 py-2 border rounded">
+		<%= build_breadcrumb(category) %>
+	</ol>
+<% end %>

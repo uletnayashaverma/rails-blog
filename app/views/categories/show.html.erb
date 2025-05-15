@@ -1,0 +1,11 @@
+<%= render "shared/breadcrumb", category: @category %>
+
+<h1><%= @category.name %></h1>
+
+<section id="posts">
+	<%= render @posts %>
+</section>
+
+<div class="pagination-wrapper">
+	<%= will_paginate @posts, class: "digg_pagination" %>
+</div>

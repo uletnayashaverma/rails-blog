@@ -1,0 +1,112 @@
+# Files in the config/locales directory are used for internationalization and
+# are automatically loaded by Rails. If you want to use locales other than
+# English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more about the API, please read the Rails Internationalization guide
+# at https://guides.rubyonrails.org/i18n.html.
+#
+# Be aware that YAML interprets the following case-insensitive strings as
+# booleans: `true`, `false`, `on`, `off`, `yes`, `no`. Therefore, these strings
+# must be quoted to be interpreted as strings. For example:
+#
+#     en:
+#       "yes": yup
+#       enabled: "ON"
+
+# en:
+#   hello: "Hello world"
+
+en:
+  common:
+    errors: "You have errors"
+    back: "Back"
+    create: "Create"
+    edit: "Edit"
+  will_paginate:
+    previous_label: "&larr;"
+    next_label: "&rarr;"
+  posts:
+    index:
+      title: "Posts"
+  admin:
+    posts:
+      new:
+        title: "New post"
+      edit:
+        title: "Edit post"
+      form:
+        submit:
+          "%{action} post"
+    categories:
+      index:
+        title: "Categories"
+      new:
+        title: "New category"
+      edit:
+        title: "Edit category"
+      form:
+        submit:
+          "%{action} category"
+  # devise
+  devise:
+    sessions:
+      new:
+        sign_in: "Sign In"
+        remember_me: "Remember me"
+        submit: "Log in"
+    registrations:
+      new:
+        sign_up: "Sign Up"
+        minimum_password_length: "minimum %{count} characters"
+        submit: "Register"
+      edit:
+        title: "Edit Profile"
+        email: "Email"
+        new_password: "New password"
+        password_hint: "(leave blank if you don't want to change it)"
+        characters_minimum: "minimum %{count} characters"
+        confirm_new_password: "Confirm new password"
+        current_password: "Current password"
+        current_password_hint: "(we need your current password to confirm your changes)"
+        submit: "Update"
+        cancel_title: "Cancel my account"
+        cancel_message: "Unhappy?"
+        cancel_button: "Cancel my account"
+        back: "Back"
+        pending_confirmation: "Currently waiting confirmation for: %{email}"
+    passwords:
+      new:
+        forgot_your_password: "Forgot your password?"
+        send_me_reset_password_instructions: "Send me reset password instructions"
+      edit:
+        change_your_password: "Change your password"
+        new_password: "New password"
+        confirm_new_password: "Confirm new password"
+        characters_minimum: "minimum %{count} characters"
+        submit: "Change password"
+    confirmations:
+      new:
+        title: "Resend confirmation instructions"
+        submit: "Send"
+    shared:
+      links:
+        sign_in: "Sign in"
+        sign_up: "Sign up"
+        forgot_your_password: "Forgot your password?"
+        resend_confirmation: "Didn't receive confirmation instructions?"
+        resend_unlock: "Didn't receive unlock instructions?"
+        omniauth: "Sign in with %{provider}"

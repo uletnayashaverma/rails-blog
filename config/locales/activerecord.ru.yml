@@ -1,0 +1,24 @@
+ru:
+  activerecord:
+    models:
+      post: "Статья"
+    attributes:
+      post:
+        title: "Название"
+        summary: "Краткая статья"
+        body: "Содержание"
+        category: "Категория"
+        all_tags: "Теги"
+      category:
+        name: "Название"
+        parent_id: "Категория родитель"
+      # devise
+      user:
+        email: "Электронная почта"
+        password: "Пароль"
+        password_confirmation: "Подтверждение пароля"
+    errors:
+      messages:
+        blank: "не может быть пустым"
+        # required: "обязательно"
+        required: "не может быть пустым"
