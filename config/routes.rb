@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     devise_for :users
     # Важно , подметь это ...
     devise_scope :user do
-      get '/users/sign_out' => 'devise/sessions#destroy'
+      get "/users/sign_out" => "devise/sessions#destroy"
     end
     # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -17,13 +17,13 @@ Rails.application.routes.draw do
 
     # Defines the root path route ("/")
     root "posts#index"
-    resources :posts, only: [:show, :index]
-    resources :tags, only: [:show]
-    resources :categories, only: [:show]
+    resources :posts, only: [ :show, :index ]
+    resources :tags, only: [ :show ]
+    resources :categories, only: [ :show ]
 
     namespace :admin do
-      resources :posts, except: [:show, :index]
-      resources :categories, except: [:show]
+      resources :posts, except: [ :show, :index ]
+      resources :categories, except: [ :show ]
     end
   end
 end

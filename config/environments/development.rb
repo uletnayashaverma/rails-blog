@@ -80,7 +80,7 @@ Rails.application.configure do
   # or set `config.action_controller.raise_on_missing_callback_actions` to `false`.
 
   # Временно отключено для избежания падений.
-  
+
   # ----------------------------------------------------------------------------------
   # config.action_controller.raise_on_missing_callback_actions = true
   config.action_controller.raise_on_missing_callback_actions = false
